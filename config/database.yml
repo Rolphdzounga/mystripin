@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  database: mystripedb
+  username: rolph
+  password: "*"
+
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: mystripedb
+  username: rolph
+  password: "*"
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: mystripedb_prod
+  username: rolph
+  password: "*"
